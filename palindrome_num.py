@@ -1,5 +1,6 @@
 class Palindrom:
     def findPalin(self,input):
+        print(type(input))
         temp = int(input)
         rev = 0
         while temp > 0:
